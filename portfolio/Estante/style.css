@@ -1,0 +1,123 @@
+html {
+  /* Suavização do scroll */
+  scroll-behavior: smooth;
+}
+
+/* Corpo da aplicação */
+body {
+    /* background */
+    background-color: #f2e7dc;
+
+    /* TEXTO */
+    color: #0d0d0d;
+    text-align: justify;
+
+    /* Alinhamento e Tamanho */
+    /*1rem = 16px, tela grande = font-size: 16px, tela média = fot-size: 15px, tela pequenas = font-size: 14px */
+    width: 100%;
+    margin: auto;
+}
+
+/* Secções dos livros */
+section {
+/* Espaçamento dentro da secção */    
+padding: 64px 256px;  
+}
+
+/* Tabela */
+table {
+  /* Largura */  
+    width: 100%;
+}
+td {
+  /* Background */  
+    background-color: #A9D9D0;
+}
+td,
+th {
+ /* borda no formato shorthand */
+  border: #000 solid 1px;
+  border-radius: 4px;
+  /* Alinhamento do texto */
+  text-align: center;
+}
+tr {
+ /* background */
+    background-color: #038C7F
+}
+
+/* Título, Texto e Parágrafos */
+P {
+    text-align: justify;
+    text-indent: 50px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h3 {
+    color: #000
+}
+/* Links */
+a:Link {
+  color: #F2e7dc; /*Link Normal*/ 
+}
+a:visited {
+  color: #95bfb8; /*Link Visitado*/
+}
+a:hover {
+  color: #025454; /*Mouse sobre o link*/
+}
+a:active {
+  color: #0d0d0d; /*Link selecionado*/
+}
+
+/* Imagem */
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/* Classes e IDs */
+.bookTitle {
+    background-color: #A9D9D0;
+    color: #027373;
+    text-align: center;   
+}
+#sectionHP,
+#sectionPJ, 
+#sectionOG {
+    background-color: #A9D9D0;
+}
+#header{
+  background-color: #038c7f;
+  color: #f2e7dc;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+#yourLibrary {
+  text-indent: 0px;
+  text-align: center;
+}
+#sumary {
+  background-color: #038c7f;
+  color: #f2e7dc;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 0 0 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Roda pé */
+footer {
+  background-color: #038c7f;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
